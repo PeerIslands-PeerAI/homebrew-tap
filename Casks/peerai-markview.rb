@@ -1,6 +1,6 @@
 cask "peerai-markview" do
-  version "0.1.1"
-  sha256 "a61622265447d8fdbb9ca2b601b0ed91a336fe1b334d36041461bf2beaafe704"
+  version "0.1.2"
+  sha256 "c62fdaa92607948ec2803d81742d422ecea58ec1b38a5a689eb409960a721b85"
 
   url "https://github.com/PeerIslands-PeerAI/homebrew-tap/releases/download/v#{version}/PeerAI.MarkView_#{version}_aarch64.dmg"
   name "PeerAI MarkView"
