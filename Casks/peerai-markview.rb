@@ -9,6 +9,11 @@ cask "peerai-markview" do
 
   app "PeerAI MarkView.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/PeerAI MarkView.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/com.peerai.markview",
     "~/Library/Caches/com.peerai.markview",
