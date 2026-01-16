@@ -2,7 +2,7 @@ cask "peerai-studio" do
   version "0.1.0"
   sha256 "PLACEHOLDER_SHA256"
 
-  url "https://github.com/PeerIslands-PeerAI/homebrew-tap/releases/download/v#{version}/PeerAI.Studio_#{version}_aarch64.dmg"
+  url "https://github.com/PeerIslands-PeerAI/homebrew-tap/releases/download/studio-v#{version}/PeerAI.Studio_#{version}_aarch64.dmg"
   name "PeerAI Studio"
   desc "AI-powered development workflows desktop app"
   homepage "https://github.com/PeerIslands-PeerAI/peerai-studio"
