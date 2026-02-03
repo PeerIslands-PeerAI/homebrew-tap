@@ -7,11 +7,11 @@ cask "peerai-studio-alpha" do
   desc "AI-powered development workflows desktop app (Alpha channel)"
   homepage "https://github.com/PeerIslands-PeerAI/peerai-studio"
 
-  app "PeerAI Studio.app"
+  app "PeerAI Studio.app", target: "PeerAI Studio Alpha.app"
 
   postflight do
     system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/PeerAI Studio.app"]
+                   args: ["-cr", "#{appdir}/PeerAI Studio Alpha.app"]
   end
 
   zap trash: [
