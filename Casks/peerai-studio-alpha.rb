@@ -1,6 +1,6 @@
 cask "peerai-studio-alpha" do
-  version "0.53.0-alpha.2"
-  sha256 "f5900c92f5112e86323c5a15263e4ac84c7fd5e6f4aa71e6b8febe1ae617cdc6"
+  version "0.53.0-alpha.3"
+  sha256 "788eb368f547dcf6151b51c1b1dab2fb51acc8e8a3a5807d3f04b308f0e61961"
 
   url "https://github.com/PeerIslands-PeerAI/homebrew-tap/releases/download/studio-v#{version}/PeerAI.Studio_#{version}_aarch64.dmg"
   name "PeerAI Studio Alpha"
